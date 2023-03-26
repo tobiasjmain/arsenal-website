@@ -1,4 +1,5 @@
 body {
+    margin: 0px;
 }
 
 .top-content {
@@ -6,13 +7,13 @@ body {
     background: red;
     display: flex;
     flex-direction: column;
+    padding: 10px 150px 60px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px;
 }
 
 .header > ul {
@@ -31,4 +32,38 @@ a {
 .logo {
     font-size: 32px;
     font-weight: bold;
+}
+
+.under-header {
+    display: flex;
+    margin-top: 80px
+
+}
+
+.hero {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-right: 200px;
+}
+
+button {
+    border-radius: 8px;
+    border: 0px;
+    padding: 10px 20px;
+    width: 100px;
+    color: white;
+    background-color: rgb(255, 99, 99);
+}
+
+img {
+    width: 380px;
+    height: auto;
 }
