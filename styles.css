@@ -58,9 +58,10 @@ button {
     border-radius: 8px;
     border: 0px;
     padding: 10px 20px;
-    width: 100px;
+    width: 120px;
     color: white;
     background-color: rgb(255, 99, 99);
+    white-space: nowrap;
 }
 
 img {
