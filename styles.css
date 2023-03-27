@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-content {
@@ -54,6 +56,11 @@ a {
     margin-right: 200px;
 }
 
+.under-header > img {
+    width: 380px;
+    height: auto;
+}
+
 button {
     border-radius: 8px;
     border: 0px;
@@ -64,7 +71,33 @@ button {
     white-space: nowrap;
 }
 
-img {
-    width: 380px;
+.information {
+    background: white;
+    padding: 40px;
+    color: red;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.photos-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.photo-pair > img {
+    width: 150px;
     height: auto;
+    border: 3px solid red;
+    border-radius: 8px;
+}
+
+.photo-pair {
+    text-align: center;
+    width: 150px;
 }
