@@ -24,7 +24,7 @@ body {
     margin: 0px;
     list-style-type: none;
     gap: 10px;
-}
+}of all time.
 
 a {
     text-decoration: none;
@@ -73,7 +73,7 @@ button {
 
 .information {
     background: white;
-    padding: 40px;
+    padding: 40px 200px;
     color: red;
 }
 
@@ -86,7 +86,7 @@ button {
 
 .photos-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 30px;
 }
 
