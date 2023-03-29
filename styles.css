@@ -101,3 +101,22 @@ button {
     text-align: center;
     width: 150px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 250px;
+    background:rgb(255, 176, 176);
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
