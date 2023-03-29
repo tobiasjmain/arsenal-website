@@ -120,3 +120,29 @@ button {
     font-size: 25px;
     font-weight: bold;
 }
+
+.signup-section {
+    background: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 50px 125px;
+    border-radius: 8px;
+}
+
+.signup-section > .text {
+    color: white;
+    width: 450px;
+}
+
+.text > .signup-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-section > button {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    height: 40px;
+    align-self: center;
+}
