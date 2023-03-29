@@ -146,3 +146,10 @@ button {
     height: 40px;
     align-self: center;
 }
+
+.footer {
+    text-align: center;
+    color: white;
+    background: red;
+    padding: 20px;
+}
